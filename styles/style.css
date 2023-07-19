@@ -59,7 +59,7 @@ nav{
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 38px 240px;
+    padding: 38px 100px;
 }
 nav > ul{
     display: flex;
@@ -89,7 +89,11 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:68px;
+    gap: 65px;
+    padding: 38px 100px;
+}
+.banner > div {
+    max-width: 50%;
 }
 .cmn-title{
     font-size: var(--cmn-title-size);
@@ -110,7 +114,6 @@ nav ul li a{
 }
 .banner-text-icons{
     color: #534C64;
-    float: left;
     text-align: left;
     font-size: 20px;
     font-weight: 500;
@@ -118,4 +121,108 @@ nav ul li a{
 }
 .cmn-icon{
     margin-bottom: 17px;
+}
+
+/* gammer section  */
+.gammer-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    padding: 38px 100px;
+}
+
+#gammer-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 48px;
+}
+.gammer-section > div {
+    max-width: 50%;
+}
+.common-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+#gamer-btn{
+    display: inline-block;
+    padding: 21px 40px;
+    color: var(--btn-primary-color);
+    border-radius: 48px;
+    border: 0;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 24px;
+    margin-top: 41px;
+    text-align: right;
+}
+.footer-gammer{
+    text-align: right;
+}
+.gammer-footer-description{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+.gammer-descirption-design{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+
+/* online gamges */
+.online-games{
+    padding: 38px 100px;
+}
+.online-games-top-text{
+    text-align: center;
+}
+.online-games-title{
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.online-games-shadow{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.funny-videos-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 16px;
+}
+.online-game-description{
+    margin-bottom: 48px;
+}
+
+/*  play instantly section */
+.play-instant{
+    padding: 38px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 265px;
+}
+.play-instant > div{
+    max-width: 50%;
 }
