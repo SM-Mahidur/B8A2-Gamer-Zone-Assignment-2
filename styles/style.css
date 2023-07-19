@@ -86,6 +86,8 @@ nav ul li a{
 /* banner section  */
 .banner{
     background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-clip: background;
+    -webkit-background-clip: background;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,6 +213,11 @@ nav ul li a{
     gap: 24px;
     border-radius: 16px;
 }
+.hover-box:hover{
+    content: ;
+    text-align:center;
+    cursor: pointer;
+}
 .online-game-description{
     margin-bottom: 48px;
 }
@@ -292,7 +299,7 @@ nav ul li a{
     float: left;
     margin-top: 83px;
 }
-p.descritpion-left {
+.descritpion-left {
     width: 270px;
 }
 .carrer-title{
@@ -391,4 +398,16 @@ p.descritpion-left {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.watch {
+    position: absolute;
+    margin-top: 173px;
+    margin-left: -190px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF42A5;
+}
+.hover-box:hover .watch{
+   visibility:visible;
 }

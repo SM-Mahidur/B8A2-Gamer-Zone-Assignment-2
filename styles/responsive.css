@@ -1,0 +1,54 @@
+
+
+@media screen and (max-width:400px) {
+    nav, nav >ul, .style-nav, .banner, .gammer-section, .funny-videos-box, .play-instant, .carrer, .carrer-summar, .shape-btn, .button-1, .brad-foote, .about-brand, .terms, .brand-icons{
+        flex-direction: column;
+        gap:10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .footer-gammer, #gammer-title, .gammer-descirption-design, #gamer-btn, .common-description, .play-title, .play-description{
+        text-align: center;
+        padding: 10px;
+    }
+    .cmn-shadow-title {
+        font-size: 30px;
+    }
+    #carrer-btn{
+        padding: 10px;
+        margin: left;
+    }
+    .down-button{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .left-summary{
+        text-align: center;
+    }
+    img, .video-box1,.play-description{
+        max-width: 100%;
+    }
+    .online-games {
+        padding: 10px;
+    }
+    .banner > div, .gammer-section > div, .play-instant > div, .carrer > div{
+        max-width: 100%;
+    }
+    .carrer-summary >div{
+        max-width: 50%;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .carrer{
+        display: flex;
+        flex-direction: column;
+    }
+    .carrer-summary{
+        display: block;
+        max-width: 100%;
+    }
+    .descritpion-left, .banner-text-icons{
+        max-width: 100%;
+        text-align: center;
+    }
+}
