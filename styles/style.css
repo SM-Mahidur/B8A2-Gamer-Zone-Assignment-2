@@ -449,15 +449,13 @@ nav ul li a{
     opacity: .6;
     visibility: hidden;
     border-radius: 16px;
-    border: 4px solid red;
-    padding: 5px;
 }
 .icons {
     color: white;
     margin-bottom: 10px;
     position: absolute;
-    top: 135px;
-    left: 92px;
+    top: 101px;
+    left: 86px;
 }
 .content-icon{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -468,12 +466,11 @@ nav ul li a{
     font-size: 20px;
     font-weight: 600;
     position: absolute;
-    top: 210px;
-    left: 65px;
+    top: 155px;
+    left: 60px;
 }
 .video-box1:hover .overflow{
     visibility:visible;
     cursor: pointer;
-    
 
 }
