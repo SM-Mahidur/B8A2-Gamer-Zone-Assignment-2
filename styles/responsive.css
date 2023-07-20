@@ -1,7 +1,6 @@
 
-
-@media screen and (max-width:400px) {
-    nav, nav >ul, .style-nav, .banner, .gammer-section, .funny-videos-box, .play-instant, .carrer, .carrer-summar, .shape-btn, .button-1, .brad-foote, .about-brand, .terms, .brand-icons{
+@media screen and (min-width:320px) and (max-width:420px) {
+    nav, nav >ul, .style-nav, .banner, .gammer-section, .funny-videos-box, .play-instant, .carrer, .carrer-summar, .shape-btn, .button, .button-1, .brad-foote, .about-brand, .terms, .brand-icons{
         flex-direction: column;
         gap:10px;
         padding: 10px;
@@ -22,8 +21,12 @@
         text-align: center;
         margin-left: 0px;
     }
+    .carrer-summary > div {
+        max-width: 25%;
+    }
     .left-summary{
         text-align: center;
+        display: flex;
     }
     img, .video-box1,.play-description{
         max-width: 100%;
@@ -51,4 +54,157 @@
         max-width: 100%;
         text-align: center;
     }
+    .shape-play {
+        left: -15px;
+    }
+    .banner-text-icons {
+        text-align: left;
+        float: left;
+    }
+    .cmn-shadow-title{
+        font-size: 95px;
+        margin-bottom: 24px;
+    }
+    .btn-primary {
+        padding: 15px 26px;
+        color: var(--btn-primary-color);
+        border-radius: 48px;
+        border: 0;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        font-size: 20px;
+        display: inline-block;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 41px;
+    }
 }
+
+
+
+@media screen and (min-width:421px) and (max-width:900px){
+    nav, nav >ul, .style-nav, .banner, .gammer-section, .funny-videos-box, .play-instant, .carrer, .carrer-summar, .shape-btn, .button-1, .brad-foote{
+        flex-direction: column;
+        gap:40px;
+        padding: 0px 30px;
+        text-align: center;
+
+    }
+    .footer-gammer, #gammer-title, .gammer-descirption-design, #gamer-btn, .common-description, .play-title, .play-description{
+        text-align: center;
+        padding: 10px;
+    }
+    .cmn-shadow-title {
+        font-size: 30px;
+    }
+    #carrer-btn{
+        padding: 10px;
+        margin: left;
+    }
+    .down-button{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .carrer-summary > div {
+        max-width: 25%;
+    }
+    .left-summary{
+        text-align: center;
+        display: flex;
+    }
+    img, .video-box1,.play-description{
+        max-width: 100%;
+    }
+    .online-games {
+        padding: 30px;
+    }
+    .banner > div, .gammer-section > div, .play-instant > div, .carrer > div{
+        max-width: 100%;
+    }
+    .carrer-summary >div{
+        max-width: 50%;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .carrer{
+        display: flex;
+        flex-direction: column;
+    }
+    .carrer-summary{
+        display: block;
+        max-width: 100%;
+    }
+    .descritpion-left, .banner-text-icons, .footer-description{
+        max-width: 100%;
+        text-align: center;
+    }
+    .shape-play {
+        left: -15px;
+    }
+    .banner-text-icons {
+        text-align: left;
+        float: left;
+    }
+    .cmn-shadow-title{
+        font-size: 95px;
+        margin-bottom: 24px;
+    }
+    .btn-primary {
+        padding: 12px 20px;
+        color: var(--btn-primary-color);
+        border-radius: 48px;
+        border: 0;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        font-size: 20px;
+        display: inline-block;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 41px;
+        }
+        .about-brand, .brand-icons{
+            padding: 0px 30px;
+        }
+        #cmn-icon {
+            max-width: 25px;
+        }
+        .about-brand {
+            text-align: center;
+            font-size: 13px;
+            gap: 10px;
+        }
+        .terms {
+            display: flex;
+            justify-content: center;
+            gap: 46px;
+            margin-bottom: 66px;
+            cursor: pointer;
+        }
+        .brad-footer > div {
+            max-width: 50%;
+            text-align: center;
+            gap: 210px;
+        }
+        .play-title{
+            padding: 0px;
+            text-align: center;
+        }
+        .descritpion-left {
+            text-align: left;
+        }
+        .carrer-summary {
+            display: flex;
+            text-align: justify;
+        }
+        button#carrer-btn {
+            max-width: 219px;
+            text-align: center;
+            margin: 10px 53px;
+            align-items: center;
+        }
+}
+
+
+
