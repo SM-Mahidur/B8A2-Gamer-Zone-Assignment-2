@@ -69,6 +69,19 @@ nav > ul{
 }
 .logo{
     cursor: pointer;
+    display: flex;
+    justify-content: centere;
+    align-items: center;
+    gap: 25px;
+}
+#logo-title{
+    text-align: center;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .style-nav{
     display: flex;
