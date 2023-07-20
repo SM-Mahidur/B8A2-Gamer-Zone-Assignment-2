@@ -67,6 +67,9 @@ nav > ul{
     align-items: center;
     gap: 32px;
 }
+.logo{
+    cursor: pointer;
+}
 .style-nav{
     display: flex;
     justify-content: center;

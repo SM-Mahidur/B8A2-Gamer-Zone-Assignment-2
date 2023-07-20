@@ -1,6 +1,12 @@
 
+
+
+
+
+
+
 @media screen and (min-width:320px) and (max-width:420px) {
-    nav, nav >ul, .style-nav, .banner, .gammer-section, .funny-videos-box, .play-instant, .carrer, .carrer-summar, .shape-btn, .button, .button-1, .brad-foote, .about-brand, .terms, .brand-icons{
+    nav, nav >ul, .style-nav, .banner, .gammer-section, .brad-footer, .funny-videos-box, .play-instant,.brad-footer, .carrer, .carrer-summar, .shape-btn, .button, .button-1, .brad-foote, .about-brand, .terms{
         flex-direction: column;
         gap:10px;
         padding: 10px;
@@ -37,10 +43,11 @@
     .banner > div, .gammer-section > div, .play-instant > div, .carrer > div{
         max-width: 100%;
     }
-    .carrer-summary >div{
-        max-width: 50%;
+    .carrer-summary >div {
+        max-width: 100%;
         flex-direction: column;
         margin-top: 30px;
+        margin-left: -57px;
     }
     .carrer{
         display: flex;
@@ -66,7 +73,7 @@
         margin-bottom: 24px;
     }
     .btn-primary {
-        padding: 15px 26px;
+        padding: 15px 18px;
         color: var(--btn-primary-color);
         border-radius: 48px;
         border: 0;
@@ -79,7 +86,26 @@
         margin-right: 10px;
         margin-top: 41px;
     }
+    .secondary{
+        background: #4EC5F7;
+    }
+    .brand-icons{
+        padding: 10px;
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
+    }
+    .brad-footer {
+        flex-direction: column;
+    }
+    .descritpion-left, .description-right {
+        margin-left: 86px;
+        text-align: justify;
+        padding: 10px;
+    }
 }
+
+
 
 
 
@@ -187,6 +213,9 @@
             text-align: center;
             gap: 210px;
         }
+        .brad-footer {
+            flex-direction: column;
+        }
         .play-title{
             padding: 0px;
             text-align: center;
@@ -205,6 +234,3 @@
             align-items: center;
         }
 }
-
-
-
